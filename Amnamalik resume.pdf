@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Amna Sultan </title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+  <section class="pic">
+    <div class="main-width">
+      <header class="Header">
+        <a href="#" class="logo">Amnamalik</a>
+        <nav class="Navbar">
+          <a href="#about me">ABOUT ME</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#skills">SKILLS</a>
+          <a href="#contact"> CONTACT</a>
+        </nav>
+      </header>
+    </div>
+  </section>
+  <div class="About me" id="about me">
+    <div class="about-content">
+      <h2>ABOUT ME</h2>
+      <p>Hello, I'm Amna Sultan.<br>
+        I'm a 21-year-old software engineering enthusiast. <br>
+        I have a solid grasp of programming languages like Java,<br>
+        and HTML/CSS. When it comes to graphic design, I'm skilled <br>
+        in using tools like Photoshop and Illustrator to create visually <br>
+        stunning designs. I've had the opportunity to work on various projects<br>
+        where I've combined my programming skills with my design expertise to create<br>
+        user-friendly and aesthetically pleasing applications. I'm proud of my ability<br>
+        to think creatively and problem-solve, which allows me to develop innovative solutions.<br>
+        I'm excited to continue expanding my knowledge and skills in both software engineering <br>
+        and graphic design as I build my portfolio. 🚀🎨💻
+    </div>
+
+  </div>
+  <div id="contact">
+    <div class="contact-content">
+      <h2>CONTACT</h2>
+      <p>Email:amnasultan407@gmail.com</p>
+      <p>Phoneno# +923125881146</p>
+    </div>
+  </div>
+  <div id="resume">
+    <a href="#" class="btn">Download Resume</a>
+    <a href="#" download="Amnamalik resume.pdf">Download Resume</a>
+    
+  </div>
+  <div class="about-sci">
+    <a href="#"><i class="bx bxl-instagram"></i></a>
+    <a href="#"><i class='bx bxl-facebook'></i></a>
+    <a href="#"><i class='bx bxl-twitter'></i></a>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+* {
+  margin: 0px;
+  padding: 0px ;
+  box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+  text-decoration:none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+section {
+  padding: 9rem 2% 1rem;
+}
+.container 
+{
+  background-image:linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40)), url("images/bag.jpg");
+  background-repeat: no repeat;
+  background-position:center;
+  background-size: cover;
+  width:100%;
+  height: 70vh;
+  margin:auto;
+  }
+nav 
+{
+  height :60px;
+ position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  padding: 20px 10%;
+  display: flex;
+  background-color:lightskyblue;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+ font-family: 'Roboto', sans-serif;
+ }
+nav h1
+{float: left ;
+ line-height:80px;
+ font-size: 20px;
+ font : inline;
+ color:whitesmoke;
+}
+nav ul
+{
+  float:right;
+  line-height: 80px;
+}
+nav ul li{
+  display:inline-block;
+  list-style: none;
+  padding: 0 5px;
+  font-weight: bold;
+}
+nav ul li a
+{
+ text-decoration: none;
+ text-transform:uppercase;
+ border-radius: 5px; 
+ vertical-align: middle;
+ font-size: 14px;
+  color:white;
+margin-right: 20px; 
+  margin-left: 10px;
+  transition: all .50s ease;
+}
+
+nav ul li a:hover
+{
+  background-color: #eb76;
+  transition: 0.5s ease;
+  box-shadow:5px 10px 30px rgb(85 85 85/ 20%);
+  transform: translateY(-3px);
+}
+nav ul li .Active
+{
+  align-items: center;
+}
+.Article
+{
+  width:50%;
+  position: absolute;
+  top:20%;
+  left: 10%;
+  padding: 0px 60px;
+  margin:auto;
+  text-align: center;
+  transform: translate(25vh);
+}
+.Article h1
+{padding: 20px;
+  font-size: 30px;
+  color:#fff;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.Article p
+{
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.Article .btn
+{color:#fff;
+ padding: 8px 15px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ text-decoration:none;
+ background-color:skyblue;
+ font-weight: bold;
+  
+}
+.Article .btn:hover
+{
+  background-color: #4399fa;
+  transition:0.5s ease;
+  }
+.feature-content
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.row-img
+{overflow: hidden;
+  width: 100px;
+ height:100px;
+ margin: 30px auto;
+ margin-bottom: 20px;
+ border-radius: 50%;
+ cursor: pointer;
+}
+.row-img img
+{
+  width: 100%;
+  display: block;
+  transition: transform 0.7s;
+}
+.row-img img :hover
+{
+  transform: scale(1.2);
+}
+.feature-content h4{
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all .50s ease;
+}
+.feature-content h4 :hover
+{
+  color: pink;
+}
+.holiday
+{
+ align-items:center;
+}
+.holiday-text .btn
+{color:#fff;
+ padding: 8px 15px;
+ letter-spacing: 1px;
+ text-transform: uppercase;
+ text-decoration:none;
+ background-color:skyblue;
+ font-weight: bold;
+}
+.holiday-img img
+{
+  width:25%;
+ height:45vh;
+ border-radius:10px;
+ margin:30px auto; 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+top:-20rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+float: right;
+}
+ .holiday-text h5{
+   font-size:22px;
+   font-weight: bold;
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: 6px;
+   margin-bottom: 20px;
+   }
+.holiday-text h2
+{
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  
+}
+.holiday-text p
+{
+  font-size: 20px;
+  line-height: 25px;
+  color:black;
+  margin-bottom: 30px;
+  
+}
